@@ -1,4 +1,4 @@
-celsius = float(input("What's the temperature(c)? :"))
+celsius = float()
 def convert(celsius):
     fahrenheit = 32 + (celsius * 9/5)
     return fahrenheit

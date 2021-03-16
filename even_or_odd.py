@@ -1,4 +1,4 @@
-number = int(input("type in desired number: "))
+number = int()
 
 if number % 2 == 1:
     print("odd")

@@ -1,5 +1,5 @@
-word = input("Enter your word: ")
+word = input()
 for vowels in word.lower():
     if vowels in "aeiou":
-        print(vowels.lower())
+        print(vowels.lower(), end="," )
 

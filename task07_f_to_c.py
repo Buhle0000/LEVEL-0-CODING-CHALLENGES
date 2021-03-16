@@ -1,4 +1,4 @@
-fahrenheit = float(input("What's the fahrenheit(f)? :"))
+fahrenheit = float()
 def convert(fahrenheit):
     celsius = (fahrenheit - 32) * 5/9
     return celsius

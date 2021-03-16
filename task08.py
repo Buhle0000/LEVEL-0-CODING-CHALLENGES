@@ -1,4 +1,4 @@
-number = float(input("What's your number :"))
+number = float()
 def convert(number):
     hours = int(number // 60)
     return hours
