@@ -1,5 +1,9 @@
-word = input()
-for vowels in word.lower():
-    if vowels in "aeiou":
-        print(vowels.lower(), end="," )
+def vowels(string)
+    vowls = ["a","e","i","o","u"]
+    letter = ""
+    for alphas in list(string):
+        if(alphas.lower() in vowls):
+            letter += alphas
+
+        print(letter)    
 

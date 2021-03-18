@@ -1,3 +1,7 @@
-name = str(input("What is your name? : "))
-print (f"Hello {name}! ")
+def hello( string):
+    print string
+    return;
+
+hello( str = f"Hello {string} !")
+
 

@@ -1,7 +1,7 @@
-side1 = float()
-side2 = float()
-side3 = float()
+import math
 
-area_of_triangle = 0.5(side1 + side2 + side3)
-print (area_of_triangle)
-
+def function (a,b,c):
+    theta = math.acos((a**2 + b**2 - c**2)/a*b)
+    area = 0.5* a*b*math.sin(theta)
+    return area
+    

@@ -1,4 +1,12 @@
-number = [int(number) for number in input().split()]
-max_number = max(number)
-print(f"maximum number is {max_number}")
+import math
+
+def maximum(a,b,c):
+    maxi = 0
+    if( a > b and b > c):
+        maxi = a
+    elif( b > c and c > a):
+        maxi = b
+    else:
+        maxi = c
+    return maxi    
 
