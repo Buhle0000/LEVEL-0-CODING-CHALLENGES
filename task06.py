@@ -1,12 +1,13 @@
-import math
 
-def maximum(a,b,c):
-    maxi = 0
-    if( a > b and b > c):
-        maxi = a
-    elif( b > c and c > a):
-        maxi = b
+def maxi(a,b,c):
+
+    if( a > b and a > c):
+        maxi = str(x)
+    elif( b > a and b > c):
+        maxi = str(b)
     else:
-        maxi = c
-    return maxi    
+        maxi = str(c)
+    print(f"Max number is {maxi}")
+
+maxi(0,1,0)    
 

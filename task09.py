@@ -1,9 +1,9 @@
-def vowels(string)
-    vowls = ["a","e","i","o","u"]
-    letter = ""
-    for alphas in list(string):
-        if(alphas.lower() in vowls):
-            letter += alphas
+def find_vowels(x):
 
-        print(letter)    
+    vowel =[ 'a','e','i','o','u','A','E','I','O','U']
+    output = set(x).intersection(vowel)
+    return f"Vowels: {output}"
+
+print(find_vowels("Umuzi"))
+        
 

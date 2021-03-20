@@ -1,7 +1,4 @@
-def hello( string):
-    print string
-    return;
-
-hello( str = f"Hello {string} !")
+def hello(string):
+    return f"Hello {string}!"
 
 

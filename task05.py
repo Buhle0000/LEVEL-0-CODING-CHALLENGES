@@ -1,7 +1,8 @@
-import math
+def area_of_triangle(a,b,c):
 
-def function (a,b,c):
-    theta = math.acos((a**2 + b**2 - c**2)/a*b)
-    area = 0.5* a*b*math.sin(theta)
-    return area
+    semi = (a + b + c)/2
+    area = str((semi * (semi - a) * (semi - b) * (semi - c))**0.5)
+    print(f"Area of Triangle is {area}")
+   
+area_of_triangle(6,5,5)   
     
