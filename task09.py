@@ -6,7 +6,7 @@ def find_vowels(string):
             vowels += letter
     return (f'Vowels: {", ".join(vowels)}')
 
-print(find_vowels("longing"))
+
 
         
 
