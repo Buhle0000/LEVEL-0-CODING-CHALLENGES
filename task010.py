@@ -7,5 +7,4 @@ def common_letters(word1, word2):
             common_letter += word1[i]
     return (f'Common letters:{",".join(common_letter)}')
 
-print(common_letters("house","computers"))
 
