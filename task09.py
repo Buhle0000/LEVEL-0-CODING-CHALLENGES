@@ -1,9 +1,12 @@
-def find_vowels(x):
+def find_vowels(string):
+    vowels = ""
+    for letter in string:
+        letter = letter.lower()
+        if letter in "aeiou" and letter not in vowels:
+            vowels += letter
+    return (f'Vowels: {", ".join(vowels)}')
 
-    vowel =[ 'a','e','i','o','u','A','E','I','O','U']
-    output = set(x).intersection(vowel)
-    return f"Vowels: {output}"
+print(find_vowels("longing"))
 
-print(find_vowels("Umuzi"))
         
 
