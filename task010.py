@@ -5,6 +5,6 @@ def common_letters(word1, word2):
     for i in range(len(word1)):
         if word1[i] in word2 and word1[i] not in common_letter:
             common_letter += word1[i]
-    return (f'Common letters:{",".join(common_letter)}')
+    print (f'Common letters:{",".join(common_letter)}')
 
 
