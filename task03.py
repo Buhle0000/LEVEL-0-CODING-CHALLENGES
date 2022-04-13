@@ -1,5 +1,5 @@
 def hello(string):
-    return(f"Hello {string}!")
+    print(f"Hello {string}!")
 
 
 
