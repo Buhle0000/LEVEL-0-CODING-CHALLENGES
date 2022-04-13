@@ -4,7 +4,7 @@ def find_vowels(string):
         letter = letter.lower()
         if letter in "aeiou" and letter not in vowels:
             vowels += letter
-    return (f'Vowels: {", ".join(vowels)}')
+    print (f'Vowels: {", ".join(vowels)}')
 
 
 
